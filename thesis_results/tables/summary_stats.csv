@@ -1,0 +1,13 @@
+Period,Variable,LT women,UA women,LT men,UA men
+pre-analysis,Employees,577590,831,535410,9618
+pre-analysis,Full-time employed,552319,769,502148,8710
+pre-analysis,Minimum-wage earners,126737,326,110261,2930
+pre-analysis,Log real wage (full-time),2.23,1.91,2.32,1.98
+pre-war,Employees,568645,1419,521963,25938
+pre-war,Full-time employed,544976,1289,493765,24058
+pre-war,Minimum-wage earners,99667,339,80516,7008
+pre-war,Log real wage (full-time),2.49,2.38,2.54,2.28
+post-war,Employees,577197,11374,516035,27374
+post-war,Full-time employed,553731,9647,489687,25407
+post-war,Minimum-wage earners,89612,3066,72536,5570
+post-war,Log real wage (full-time),2.56,2.31,2.6,2.4

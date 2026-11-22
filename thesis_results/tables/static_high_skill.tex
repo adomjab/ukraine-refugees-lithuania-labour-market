@@ -1,0 +1,34 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{high\_skill}\\
+   Model:                        & (1)           & (2)           & (3)      & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   treat $\times$ post           & 0.0067$^{**}$ & 0.0067$^{**}$ &          & 0.0044$^{**}$\\   
+                                 & (0.0030)      & (0.0030)      &          & (0.0020)\\   
+   treated\_unit $\times$ post   &               &               & -0.0197  &   \\   
+                                 &               &               & (0.0133) &   \\   
+   Population weights            &               &               &          & Yes\\  
+   Heterogeneous trends          &               & Yes           & Yes      & Yes\\  
+   Treated municipalities        & 10            & 10            & 10       & 10\\  
+   Control municipalities        & 50            & 50            & 26       & 50\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   municipality                  & Yes           & Yes           &          & Yes\\  
+   date                          & Yes           & Yes           & Yes      & Yes\\  
+   match\_id                     &               &               & Yes      & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                  & 4,320         & 4,320         & 4,248    & 4,320\\  
+   R$^2$                         & 0.94523       & 0.95661       & 0.79871  & 0.99411\\  
+   Dependent variable mean       & 0.36385       & 0.36385       & 0.35454  & 0.36385\\  
+   RMSE                          & 0.01000       & 0.00890       & 0.02002  & 0.00070\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

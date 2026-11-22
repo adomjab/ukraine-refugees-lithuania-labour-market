@@ -1,0 +1,34 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{servsales}\\
+   Model:                        & (1)           & (2)                    & (3)      & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   treat $\times$ post           & -0.0032$^{*}$ & $-4.49\times 10^{-5}$  &          & 0.0015\\   
+                                 & (0.0017)      & (0.0021)               &          & (0.0011)\\   
+   treated\_unit $\times$ post   &               &                        & 0.0063   &   \\   
+                                 &               &                        & (0.0085) &   \\   
+   Population weights            &               &                        &          & Yes\\  
+   Heterogeneous trends          &               & Yes                    & Yes      & Yes\\  
+   Treated municipalities        & 10            & 10                     & 10       & 10\\  
+   Control municipalities        & 50            & 50                     & 26       & 50\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   municipality                  & Yes           & Yes                    &          & Yes\\  
+   date                          & Yes           & Yes                    & Yes      & Yes\\  
+   match\_id                     &               &                        & Yes      & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                  & 4,320         & 4,320                  & 4,248    & 4,320\\  
+   R$^2$                         & 0.95656       & 0.96180                & 0.77696  & 0.98877\\  
+   Dependent variable mean       & 0.11620       & 0.11620                & 0.11408  & 0.11620\\  
+   RMSE                          & 0.00709       & 0.00665                & 0.01869  & 0.00046\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

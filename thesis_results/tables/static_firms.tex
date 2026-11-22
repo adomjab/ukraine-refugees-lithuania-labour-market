@@ -1,0 +1,34 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{firms}\\
+   Model:                        & (1)          & (2)     & (3)       & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   treat $\times$ post           & 154.8$^{**}$ & 2.537   &           & -58.74$^{*}$\\   
+                                 & (76.32)      & (25.74) &           & (32.00)\\   
+   treated\_unit $\times$ post   &              &         & -3,050.5  &   \\   
+                                 &              &         & (1,747.9) &   \\   
+   Population weights            &              &         &           & Yes\\  
+   Heterogeneous trends          &              & Yes     & Yes       & Yes\\  
+   Treated municipalities        & 10           & 10      & 10        & 10\\  
+   Control municipalities        & 50           & 50      & 26        & 50\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   municipality                  & Yes          & Yes     &           & Yes\\  
+   date                          & Yes          & Yes     & Yes       & Yes\\  
+   match\_id                     &              &         & Yes       & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                  & 4,320        & 4,320   & 4,248     & 4,320\\  
+   R$^2$                         & 0.99940      & 0.99960 & 0.80542   & 0.99952\\  
+   Dependent variable mean       & 1,476.5      & 1,476.5 & 1,488.2   & 1,476.5\\  
+   RMSE                          & 96.496       & 78.654  & 1,755.2   & 35.857\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
