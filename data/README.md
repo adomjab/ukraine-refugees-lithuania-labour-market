@@ -9,7 +9,7 @@
 | `municipalities.geojson` | © OpenStreetMap contributors, ODbL | Real, public |
 
 The thesis uses confidential, municipality-level data from Lithuania's State Social
-Insurance Fund Board (SoDra), provided under a data-use agreement. It is not included
+Insurance Fund Board (SoDra). It is not included
 in this repository.
 
 The three `.dta` files here are synthetic. They have the same structure as the
